@@ -2,8 +2,8 @@
 
 typedef struct {
 
-	int type;//0=szabad mozg·s 1=Visszafele 2=belefele
-	int n_object; // objektumok sz·ma, amihez kapcsolÛdik (amit nÈz)
+	int type;//0=szabad mozg√°s 1=Visszafele 2=belefele
+	int n_object; // objektumok sz√°ma, amihez kapcsol√≥dik (amit n√©z)
 	matrix_4x4_type matrix;
 
 } camera_type, *camera_type_ptr;
